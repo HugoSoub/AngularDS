@@ -19,3 +19,23 @@
     </tr>
 </table>
 <br>
+
+<h1>Exercice 4 :</h1>
+<br>
+<p>Les stats envoyé depuis "statistique.componentstatistique.component"</p>
+
+<table>
+    <tr>
+        <td>Animal</td>
+        <td>Vitesse Km/h</td>
+        <td>Population</td>
+    </tr>
+    <ng-container *ngFor="let animal of tabAnimal">
+        <tr>
+            <td>{{animal.animal}}</td>
+            <td>{{animal.vitesse}}</td>
+            <td>{{animal.population}}</td>
+        </tr>
+    </ng-container>
+</table>
+<br>
